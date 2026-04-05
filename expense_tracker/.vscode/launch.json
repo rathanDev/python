@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Expense Tracker",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}
